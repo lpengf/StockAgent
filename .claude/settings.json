@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYTHONPATH=src .venv/Scripts/python -c ' *)",
+      "Bash(ADMIN_API_KEY=test-admin DATA_CONNECTOR=demo PYTHONPATH=src .venv/Scripts/python -c ' *)",
+      "Bash(ADMIN_API_KEY=test-admin PYTHONPATH=src .venv/Scripts/python -c ' *)",
+      "Bash(docker --version)"
+    ]
+  }
+}
